@@ -1,0 +1,22 @@
+{
+  "name": "@barebones/grid",
+  "version": "0.0.1",
+  "description": "A simple grid system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timwright12/barebones-grid.git"
+  },
+  "keywords": [
+    "grid"
+  ],
+  "author": "Tim Wright",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timwright12/barebones-grid/issues"
+  },
+  "homepage": "https://github.com/timwright12/barebones-grid#readme"
+}
