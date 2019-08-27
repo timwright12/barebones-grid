@@ -18,110 +18,112 @@
 
 .grid {
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	margin-left: var(--grid-gutter-correction);
+	margin-right: var(--grid-gutter-correction);
 }
 
 .grid__column {
+	box-sizing: border-box;
 	padding-left: var(--grid-gutter);
 }
 
-.grid-column--100 {
+.grid__column--100 {
 	flex: 1 0 var(--grid-col-100);
 }
 
-.grid-column--80 {
+.grid__column--80 {
 	flex: 1 0 var(--grid-col-80);
 }
 
-.grid-column--75 {
+.grid__column--75 {
 	flex: 1 0 var(--grid-col-75);
 }
 
-.grid-column--66 {
+.grid__column--66 {
 	flex: 1 0 var(--grid-col-66);
 }
 
-.grid-column--60 {
+.grid__column--60 {
 	flex: 1 0 var(--grid-col-60);
 }
 
-.grid-column--50 {
+.grid__column--50 {
 	flex: 1 0 var(--grid-col-50);
 }
 
-.grid-column--40 {
+.grid__column--40 {
 	flex: 1 0 var(--grid-col-40);
 }
 
-.grid-column--33 {
+.grid__column--33 {
 	flex: 1 0 var(--grid-col-33);
 }
 
-.grid-column--25 {
+.grid__column--25 {
 	flex: 1 0 var(--grid-col-25);
 }
 
-.grid-column--20 {
+.grid__column--20 {
 	flex: 1 0 var(--grid-col-20);
 }
 
-.grid-column--16 {
+.grid__column--16 {
 	flex: 1 0 var(--grid-col-16);
 }
 
-.grid-column--8 {
+.grid__column--8 {
 	flex: 1 0 var(--grid-col-8);
 }
 
 
 @media (min-width: 600px) {
 
-	.grid-column--sm-100 {
+	.grid__column--sm-100 {
 		flex: 1 0 var(--grid-col-100);
 	}
 
-	.grid-column--sm-80 {
+	.grid__column--sm-80 {
 		flex: 1 0 var(--grid-col-80);
 	}
 
-	.grid-column--sm-75 {
+	.grid__column--sm-75 {
 		flex: 1 0 var(--grid-col-75);
 	}
 
-	.grid-column--sm-66 {
+	.grid__column--sm-66 {
 		flex: 1 0 var(--grid-col-66);
 	}
 
-	.grid-column--sm-60 {
+	.grid__column--sm-60 {
 		flex: 1 0 var(--grid-col-60);
 	}
 
-	.grid-column--sm-50 {
+	.grid__column--sm-50 {
 		flex: 1 0 var(--grid-col-50);
 	}
 
-	.grid-column--sm-40 {
+	.grid__column--sm-40 {
 		flex: 1 0 var(--grid-col-40);
 	}
 
-	.grid-column--sm-33 {
+	.grid__column--sm-33 {
 		flex: 1 0 var(--grid-col-33);
 	}
 
-	.grid-column--sm-25 {
+	.grid__column--sm-25 {
 		flex: 1 0 var(--grid-col-25);
 	}
 
-	.grid-column--sm-20 {
+	.grid__column--sm-20 {
 		flex: 1 0 var(--grid-col-20);
 	}
 
-	.grid-column--sm-16 {
+	.grid__column--sm-16 {
 		flex: 1 0 var(--grid-col-16);
 	}
 
-	.grid-column--sm-8 {
+	.grid__column--sm-8 {
 		flex: 1 0 var(--grid-col-8);
 	}
 
@@ -129,51 +131,51 @@
 
 @media (min-width: 800px) {
 
-	.grid-column--md-100 {
+	.grid__column--md-100 {
 		flex: 1 0 var(--grid-col-100);
 	}
 
-	.grid-column--md-80 {
+	.grid__column--md-80 {
 		flex: 1 0 var(--grid-col-80);
 	}
 
-	.grid-column--md-75 {
+	.grid__column--md-75 {
 		flex: 1 0 var(--grid-col-75);
 	}
 
-	.grid-column--md-66 {
+	.grid__column--md-66 {
 		flex: 1 0 var(--grid-col-66);
 	}
 
-	.grid-column--md-60 {
+	.grid__column--md-60 {
 		flex: 1 0 var(--grid-col-60);
 	}
 
-	.grid-column--md-50 {
+	.grid__column--md-50 {
 		flex: 1 0 var(--grid-col-50);
 	}
 
-	.grid-column--md-40 {
+	.grid__column--md-40 {
 		flex: 1 0 var(--grid-col-40);
 	}
 
-	.grid-column--md-33 {
+	.grid__column--md-33 {
 		flex: 1 0 var(--grid-col-33);
 	}
 
-	.grid-column--md-25 {
+	.grid__column--md-25 {
 		flex: 1 0 var(--grid-col-25);
 	}
 
-	.grid-column--md-20 {
+	.grid__column--md-20 {
 		flex: 1 0 var(--grid-col-20);
 	}
 
-	.grid-column--md-16 {
+	.grid__column--md-16 {
 		flex: 1 0 var(--grid-col-16);
 	}
 
-	.grid-column--md-8 {
+	.grid__column--md-8 {
 		flex: 1 0 var(--grid-col-8);
 	}
 
@@ -181,51 +183,51 @@
 
 @media (min-width: 1000px) {
 
-	.grid-column--lg-100 {
+	.grid__column--lg-100 {
 		flex: 1 0 var(--grid-col-100);
 	}
 
-	.grid-column--lg-80 {
+	.grid__column--lg-80 {
 		flex: 1 0 var(--grid-col-80);
 	}
 
-	.grid-column--lg-75 {
+	.grid__column--lg-75 {
 		flex: 1 0 var(--grid-col-75);
 	}
 
-	.grid-column--lg-66 {
+	.grid__column--lg-66 {
 		flex: 1 0 var(--grid-col-66);
 	}
 
-	.grid-column--lg-60 {
+	.grid__column--lg-60 {
 		flex: 1 0 var(--grid-col-60);
 	}
 
-	.grid-column--lg-50 {
+	.grid__column--lg-50 {
 		flex: 1 0 var(--grid-col-50);
 	}
 
-	.grid-column--lg-40 {
+	.grid__column--lg-40 {
 		flex: 1 0 var(--grid-col-40);
 	}
 
-	.grid-column--lg-33 {
+	.grid__column--lg-33 {
 		flex: 1 0 var(--grid-col-33);
 	}
 
-	.grid-column--lg-25 {
+	.grid__column--lg-25 {
 		flex: 1 0 var(--grid-col-25);
 	}
 
-	.grid-column--lg-20 {
+	.grid__column--lg-20 {
 		flex: 1 0 var(--grid-col-20);
 	}
 
-	.grid-column--lg-16 {
+	.grid__column--lg-16 {
 		flex: 1 0 var(--grid-col-16);
 	}
 
-	.grid-column--lg-8 {
+	.grid__column--lg-8 {
 		flex: 1 0 var(--grid-col-8);
 	}
 
